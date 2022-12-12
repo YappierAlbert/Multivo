@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/transition.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="assets/css/animate.css" media="screen" title="no title" charset="utf-8">
+    <style>
+        .hidden{
+            display: none;
+        }
+        .munggah{
+            margin-top: -60px;
+        }
+    </style>
+    <link rel="shortcut icon" href="assets/img/LOGO-04.png"  type="image/x-icon">
+</head>
+<body style="background-color: #ABD9FF; ">
+    <!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          
+      <div id="myLinks" class="hidden" style="display: flex;">
+        <a href="darkmode/dark.html"><i class="fas fa-moon"></i></a>
+        <a href="#logo"><i class="fas fa-arrow-circle-up" style="color: #f38e44; font-size: 30px; margin-top: 10px; margin-left: 5px;"></i></a>
+        <ul style="margin-top: 10px; margin-left: -10px;">
+        <li style="z-index: 9999999999;">
+            <i class="fas fa-language"></i>
+            <ul class="dropdown">
+                <li style="display: flex;"><a href="">Indonesia</a></li>
+                <li style="display: flex;"><a href="eng.html">English</a></li>
+            </ul>
+        </li>
+        </ul>
+        <div class="music-mobile">
+            <div class="container-audio">
+                <audio controls loop >
+                           <source src="assets/music/audio1.mp3" type="audio/ogg">
+                           Your browser dose not Support the audio Tag
+                </audio>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="logo-mobile" id="logo">
+        <a href="index.html"><img src="assets/img/LOGO-02.png" style="margin-left: 240px; margin-top: 0px; position: absolute;" id="logo" width="110px" height="50px" alt=""></a>
+    </div>
+</div>
+    <ul class="desktop-fiture" >
+        <a href="darkmode/dark.html" style="z-index: 9999999999;"><i class="fas fa-moon" ></i></a>
+            <li style="z-index: 9999999999;">
+                <i class="fas fa-language"></i>
+                <ul class="dropdown">
+                    <li style="display: flex;"><img src="assets/img/negara/Flag_of_Indonesia.svg" width="20px" height="10px" style="z-index: 99999; margin-left:-25px; margin-top: 10px; margin-right: 5px;" alt=""><a href="">Indonesia</a></li>
+                    <li style="display: flex;"><img src="assets/img/negara/Flag_of_the_United_States_(Pantone).svg" width="20px" height="10px" style="z-index: 99999; margin-left:-25px; margin-top: 10px; margin-right: 5px;" alt=""><a href="eng.html">English</a></li>
+                </ul>
+            </li>
+        <a href="index.html"><i class="fas fa-home" style="font-size: 30px; margin-top: 5px; margin-left: 10px; background-color: #555; border-radius: 10px; color: white; padding: 10px; "></i></a>
+        <img src="assets/img/logo.png" class="logo"  width="200px" height="80px" style="margin-left: 400px;" alt="">
+        <a href="https://github.com/YappierUwU/Multivo" style="z-index: 99999;"><i class="fas fa-download"></i></a>
+        <i style="z-index: 9999999; cursor: pointer;" class="fas fa-expand openfull" onclick="openFullscreen()"></i>
+        <i style="z-index: 9999999; cursor: pointer;" class="fas fa-expand closefull" onclick="closeFullscreen()"></i>
+    </ul>
+    <div class="video" style="z-index: 9999999999999999999999999999;">
+        <video src="assets/video/Ubaya.mp4" controls width="600px" height="600px" style="margin-left: 460px; margin-top: -150px; margin-bottom: 200px; " ></video>
+    </div>
+        <div class="bottom-fiture">
+        <div class="music">
+            <div class="container-audio">
+                <audio controls loop >
+                           <source src="assets/music/audio1.mp3" type="audio/ogg">
+                           Your browser dose not Support the audio Tag
+                </audio>
+            </div>
+        </div>
+        <div class="mascot" style="width: 200px; height: 200px;">
+            <img src="assets/img/mascot/Pala.png" style="margin-top: 225px;" id="mascot" class="pala" onclick="mascotHenshin()" width="400px" height="400px" alt="">
+            <div style="display: flex;">
+                <img src="assets/img//mascot/Badan.png" class="badan hidden" onclick="mascotHenshin()" width="400px" height="400px" alt="" style="margin-top: 100px;">
+                <ul style="color: black; margin-top: 110px; display: flex; height: 300px; z-index: 99999999;" class="hidden" id="dropdown-mascot">
+                    <li style="margin-left: -80px; margin-top: 0px;"><h4>Selamat</h4></li>
+                    <li style="margin-left: -66px; margin-top: 20px;"><h4>Datang</h4></li>
+                    <li style="margin-left: -58px; margin-top: 40px;"><h4>Di</h4></li>
+                    <li style="margin-left: -17px; margin-top: 60px;"><h4>Multivo</h4></li>
+                    <li style="margin-left: -57px; margin-top: 80px;"><h4>Magz</h4></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="scene" id="scene" style="z-index: -99999999999999999999999;" > 
+        <li class="layer star" id="starLeft" style="width: 1400px; height:100px" data-depth="0.8">
+            <img src="assets/img/background dark/Star.png" alt="" />
+         </li>
+         <li class="layer star" id="starRight" style="width: 1400px; height:100px" data-depth="0.8">
+            <img src="assets/img/background dark/Sparkle.png" alt="" />
+         </li>
+         <li class="layer moon" id="moon" style="width: 1400px; height:100px" data-depth="0.5">
+            <img src="assets/img/Light/Sun 2.png"  alt="" />
+         </li>
+        <li class="layer" style="width: 100px;" data-depth="1.00">
+            <div class="bg-lower-3">
+
+            </div>
+        </li>
+        <li class="layer" style="width: 100px;" data-depth="1.00">
+            <div class="bg-lower-2">
+
+            </div>
+        </li>
+        <li class="layer" style="width: 100px;" data-depth="1.00">
+            <div class="bg-lower-1">
+
+            </div>
+        </li>
+
+</div>    
+        
+    
+
+</body>
+    <script src="script.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/detectmobilebrowser.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.parallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        $('#scene').parallax({
+
+        });
+
+        var elem = document.documentElement;
+    var openfull = document.querySelector(".openfull");
+    var closefull = document.querySelector(".closefull");
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
+
+    
+    
+    function closeFullscreen() {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) { /* Safari */
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { /* IE11 */
+        document.msExitFullscreen();
+      }
+    }
+
+    function mascotHenshin(){
+        let pala = document.getElementById('mascot')
+        let dropdown = document.getElementById('dropdown-mascot')
+        let badan = document.querySelector('.badan')
+
+
+        pala.addEventListener('click', () => {
+            badan.classList.toggle("hidden")
+            dropdown.classList.toggle("hidden")
+            pala.classList.toggle("hidden")
+        })
+        badan.addEventListener('click', () => {
+            badan.classList.toggle("hidden")
+            dropdown.classList.toggle("hidden")
+            pala.classList.toggle("hidden")
+        })
+    }
+
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  var logo = document.getElementById('logo');
+    x.classList.toggle('hidden');
+}   
+
+    </script>
+</html>

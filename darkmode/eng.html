@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multivo</title>
+    <link rel="stylesheet" href="dark.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/transition.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/animate.css" media="screen" title="no title" charset="utf-8">
+    <style>
+        .hidden{
+            display: none;
+        }
+        .munggah{
+            margin-top: -60px;
+        }
+    </style>
+    <link rel="shortcut icon" href="../assets/img/LOGO-04.png"  type="image/x-icon">
+</head>
+<body style="background-color: #0B131E; ">
+    <!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          
+      <div id="myLinks" class="hidden" style="display: flex;">
+        <a href="../index.html"><i class="fas fa-sun"></i></a>
+        <a href="#f1"><i class="fas fa-arrow-circle-up" style="color: white; font-size: 30px; margin-top: 10px; margin-left: 5px;"></i></a>
+        <ul style="margin-top: 10px; margin-left: -10px;">
+        <li style="z-index: 9999999999;">
+            <i class="fas fa-language"></i>
+            <ul class="dropdown">
+                <li style="display: flex;"><a href="dark.html">Indonesia</a></li>
+                <li style="display: flex;"><a href="">English</a></li>
+            </ul>
+        </li>
+        </ul>
+        <div class="music-mobile">
+            <div class="container-audio">
+                <audio controls loop >
+                           <source src="../assets/music/audio1.mp3" type="audio/ogg">
+                           Your browser dose not Support the audio Tag
+                </audio>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="logo-mobile">
+        <a href="dark.html"><img src="../assets/img/LOGO-02.png" style="margin-left: 240px; margin-top: 0px; position: absolute;" id="logo" width="110px" height="50px" alt=""></a>
+    </div>
+</div>
+    <ul class="desktop-fiture" >
+        <a href="../index.html" style="z-index: 9999999999;"><i class="fas fa-sun" ></i></a>
+            <li style="z-index: 9999999999;">
+                <i class="fas fa-language"></i>
+                <ul class="dropdown">
+                    <li style="display: flex;"><img src="../assets/img/negara/Flag_of_Indonesia.svg" width="20px" height="10px" style="z-index: 99999; margin-left:-25px; margin-top: 10px; margin-right: 5px;" alt=""><a href="dark.html">Indonesia</a></li>
+                    <li style="display: flex;"><img src="../assets/img/negara/Flag_of_the_United_States_(Pantone).svg" width="20px" height="10px" style="z-index: 99999; margin-left:-25px; margin-top: 10px; margin-right: 5px;" alt=""><a href="">English</a></li>
+                </ul>
+            </li>
+        <img src="../assets/img/logo.png" class="logo"  width="200px" height="80px" alt="">
+        <a href="https://github.com/YappierUwU/Multivo" style="z-index: 99999;"><i class="fas fa-download"></i></a>
+        <i style="z-index: 9999999; cursor: pointer;" class="fas fa-expand openfull" onclick="openFullscreen()"></i>
+        <i style="z-index: 9999999; cursor: pointer;" class="fas fa-expand closefull" onclick="closeFullscreen()"></i>
+    </ul>
+        
+    <div class="container" style="display: flex; justify-content: center;">
+    <!-- previous button -->
+    <button id="prv-btn" style="z-index: 99999999; height: 450px;">
+        <i class="fas fa-arrow-circle-left"></i>
+    </button>
+
+    <!-- main -->
+    <div class="book" id="book">
+    <div id="p1" class="paper" >
+        <div class="front">
+            <div id="f1" class="front-content">
+                
+                <img src="../assets/img/COVER.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b1" class="back-content">
+                
+                <img src="../assets/img/TOC/ENG/1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p2" class="paper" >
+        <div class="front">
+            <div id="f2" class="front-content">
+                
+                <img src="../assets/img/TOC/ENG/2.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b2" class="back-content">
+                
+                <img src="../assets/img/PELOPOR IT/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p3" class="paper" >
+        <div class="front">
+            <div id="f3" class="front-content">
+                
+                <img src="../assets/img/PELOPOR IT/ENG/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b3" class="back-content">
+                
+                <img src="../assets/img/DUDI/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p4" class="paper" >
+        <div class="front">
+            <div id="f4" class="front-content">
+                
+                <img src="../assets/img/DUDI/ENG/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b4" class="back-content">
+                
+                <img src="../assets/img/BANK MASPION DIGITAL/ENG/BANK-01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p5" class="paper" >
+        <div class="front">
+            <div id="f5" class="front-content">
+                
+                <img src="../assets/img/BANK MASPION DIGITAL/ENG/BANK-02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b5" class="back-content">
+                
+                <img src="../assets/img/BANK MASPION QRIS/ENG/QRIS-01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p6" class="paper" >
+        <div class="front">
+            <div id="f6" class="front-content">
+                
+                <img src="../assets/img/BANK MASPION QRIS/ENG/QRIS-02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b6" class="back-content">
+                
+                <img src="../assets/img/UBAYA/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p7" class="paper" >
+        <div class="front">
+            <div id="f7" class="front-content">
+                
+                <a href="ubaya.html" style="cursor: pointer;"><img src="../assets/img/UBAYA/IND/02.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="back">
+            <div id="b7" class="back-content">
+                
+                <img src="../assets/img/CYBER SECURITY/ENG/1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p8" class="paper" >
+        <div class="front">
+            <div id="f8" class="front-content">
+                
+                <img src="../assets/img/CYBER SECURITY/ENG/2.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b8" class="back-content">
+                
+                <img src="../assets/img/FILM/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p9" class="paper" >
+        <div class="front">
+            <div id="f9" class="front-content">
+                
+                <img src="../assets/img/FILM/ENG/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b9" class="back-content">
+                
+                <img src="../assets/img/PAK MIE AYAM/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p10" class="paper" >
+        <div class="front">
+            <div id="f10" class="front-content">
+                
+                <img src="../assets/img/PAK MIE AYAM/ENG/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b10" class="back-content">
+                
+                <img src="../assets/img/SBDU/ING/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p11" class="paper" >
+        <div class="front">
+            <div id="f11" class="front-content">
+                
+                <img src="../assets/img/SBDU/ING/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b11" class="back-content">
+                
+                <img src="../assets/img/PRESTASI/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p12" class="paper" >
+        <div class="front">
+            <div id="f12" class="front-content">
+                
+                <img src="../assets/img/PRESTASI/ENG/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b12" class="back-content">
+                
+                <img src="../assets/img/BKK/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p13" class="paper" >
+        <div class="front">
+            <div id="f13" class="front-content">
+                
+                <img src="../assets/img/BKK/ENG/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b13" class="back-content">
+                
+                <img src="../assets/img/SAYUR/ENG/2-02.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p14" class="paper" >
+        <div class="front">
+            <div id="f14" class="front-content">
+                
+                <a href="video.html" style="cursor: pointer;"></a><img src="../assets/img/SAYUR/ENG/6-06.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b14" class="back-content">
+                
+                <img src="../assets/img/TEAM/ENG/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p15" class="paper" >
+        <div class="front">
+            <div id="f15" class="front-content">
+                
+                <img src="../assets//img/TEAM/ENG/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="15" class="back-content">
+                
+                <img src="../assets/img/TEAM/ENG/03.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="p16" class="paper" >
+        <div class="front">
+            <div id="f16" class="front-content">
+                
+                <img src="../assets/img/TEAM/ENG/04.jpg" alt="">
+            </div>
+        </div>
+        <div class="back">
+            <div id="b16" class="back-content">
+                
+                <img src="../assets/img/COVER BELAKANG.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- next button -->
+    <button id="nxt-btn" style="z-index: 99999999; height: 450px;">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
+    </div>
+    <div class="bottom-fiture">
+      <div class="page-controller" >    
+            <div class="container-md" style="display: flex;justify-content:center; margin-top: -15px; z-index: 99999;">    
+                <div class="button-controls">
+                        <button id="firstPage" style=" margin-top: 25px; margin-left: -20px;" ><i class="fas fa-backward"></i></button> 
+                        <button id="lastPage" style=" margin-top: 25px; margin-left: 0px;"><i class="fas fa-forward"></i></button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="music">
+            <div class="container-audio">
+                <audio controls loop >
+                           <source src="../assets/music/audio1.mp3" type="audio/ogg">
+                           Your browser dose not Support the audio Tag
+                </audio>
+            </div>
+        </div>
+        <div class="mascot" style="width: 200px; height: 200px;">
+            <img src="../assets/img/mascot/Pala.png" style="margin-top: 225px;" id="mascot" class="pala" onclick="mascotHenshin()" width="400px" height="400px" alt="">
+            <div style="display: flex;">
+                <img src="../assets/img//mascot/Badan.png" class="badan hidden" onclick="mascotHenshin()" width="400px" height="400px" alt="" style="margin-top: 100px;">
+                <ul style="color: white; margin-top: 110px; display: flex; height: 300px; z-index: 99999999;" class="hidden" id="dropdown-mascot">
+                    <li style="margin-left: -100px; margin-top: 0px;"><h4>Welcome</h4></li>
+                    <li style="margin-left: -76px; margin-top: 20px;"><h4>To</h4></li>
+                    <li style="margin-left: -17px; margin-top: 40px;"><h4>Multivo</h4></li>
+                    <li style="margin-left: -57px; margin-top: 60px;"><h4>Magz</h4></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="scene" id="scene" > 
+        <li class="layer star" id="starLeft" style="width: 1400px; height:100px" data-depth="0.8">
+            <img src="../assets/img/background dark/Star.png" alt="" />
+         </li>
+         <li class="layer star" id="starRight" style="width: 1400px; height:100px" data-depth="0.8">
+            <img src="../assets/img/background dark/Sparkle.png" alt="" />
+         </li>
+         <li class="layer moon" id="moon" style="width: 1400px; height:100px" data-depth="0.5">
+            <img src="../assets/img/background dark/Moon.png"  alt="" />
+         </li>
+        <li class="layer" style="width: 100px;" data-depth="1.00">
+            <div class="bg-lower-3">
+
+            </div>
+        </li>
+        <li class="layer" style="width: 100px;" data-depth="1.00">
+            <div class="bg-lower-2">
+
+            </div>
+        </li>
+        <li class="layer" style="width: 100px;" data-depth="1.00">
+            <div class="bg-lower-1">
+
+            </div>
+        </li>
+
+</div>    
+        
+    
+
+</body>
+    <script src="../script.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/fontawesome/js/all.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="../assets/js/detectmobilebrowser.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.parallax.min.js"></script>
+    <script type="text/javascript" src="../assets/js/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        $('#scene').parallax({
+
+        });
+
+        var elem = document.documentElement;
+    var openfull = document.querySelector(".openfull");
+    var closefull = document.querySelector(".closefull");
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
+
+    
+    
+    function closeFullscreen() {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) { /* Safari */
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { /* IE11 */
+        document.msExitFullscreen();
+      }
+    }
+
+    function mascotHenshin(){
+        let pala = document.getElementById('mascot')
+        let dropdown = document.getElementById('dropdown-mascot')
+        let badan = document.querySelector('.badan')
+
+
+        pala.addEventListener('click', () => {
+            badan.classList.toggle("hidden")
+            dropdown.classList.toggle("hidden")
+            pala.classList.toggle("hidden")
+        })
+        badan.addEventListener('click', () => {
+            badan.classList.toggle("hidden")
+            dropdown.classList.toggle("hidden")
+            pala.classList.toggle("hidden")
+        })
+    }
+
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  var logo = document.getElementById('logo');
+    x.classList.toggle('hidden');
+}   
+
+    </script>
+</html>
